@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    transition: all .3s linear;
+}
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    background: #333;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(45deg, #333 80%, #5c3cd6 20%);
+}
+.side-image{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index:2;
+    width: 600px;
+}
+.side-image img{
+    width: 450px;
+}
+form{
+    height: 450px;
+    width: 350px;
+    margin-left:200px ;
+    box-shadow: 0 0 10px #000;
+    border-radius: 10px;
+    text-align: center;
+    color: #5c3cd6;
+}
+form h2{
+    padding: 20px;
+    line-height: 70px;
+    font-size: 30px;
+}
+form .box{
+    height: 50px;
+    width: 80%;
+    margin-top: 25px;
+    padding: 0 20px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #5c3cd6;
+    color: white;
+    caret-color: #5c3cd6;
+}
+form i{
+    margin-top: 40px;
+    padding: 2px 0 0 10px;
+}
+form a{
+    color: orange;
+    padding: 0 30px;
+    float: right;
+    line-height: 50px;
+}
+form .btn{
+    color: white;
+    margin-top: 25px;
+    height: 40px;
+    width: 90%;
+    background: #5c5cd6;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 50px;   
+}
+form .btn:hover{
+    opacity: .6;
+}
